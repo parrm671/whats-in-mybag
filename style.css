@@ -1,0 +1,76 @@
+body {
+  font-family: Helvetica, sans-serif;
+  background-color: red;
+  min-height: 100vh;
+ /*outline: 20px solid; */
+  
+}
+
+h1 {
+    color:white;
+    font-size: 325px;
+    text-shadow: 25px 25px rgb(0, 0, 0); 
+    font-stretch:extra-condensed;
+    margin: 0px;
+    letter-spacing: -15px;
+    line-height: 80%;
+    /* outline: solid; */
+    width: fit-content;
+    height: min-content;
+    transform: skewY(-20deg);
+    position: fixed;
+}
+
+div {
+    position: fixed;
+    width:fit-content;
+    box-sizing: border-box;
+    background: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 5px 10px;
+    font-size: 20px;
+    border-radius: 10px;
+    font-style: italic;
+    display:none;
+    transition: opacity 0.5s ease;
+}
+
+#whatsin {
+    top: 165px;
+}
+
+#back {
+    top: 800px;
+    right:60px;
+}
+
+a {
+    font-size: 40px;
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+    font-family: Helvetica, sans-serif;
+    margin: 0px;
+    /* outline: solid; */
+    width: fit-content;
+    display: inline;
+    position: fixed;
+    transform: skewY(-30deg);
+    transition: transform 0.5s ease;
+    
+}
+a:hover {
+    color:white;
+    transform:translate(-30px) scale(170%) skewY(-30deg);
+    text-shadow: 5px 5px rgb(0, 0, 0);
+
+}
+
+#info #utils #stim #med #clean #other:hover {
+    transform:translate(-30px) scale(170%) skewY(-30deg);
+}
+
+#back:hover {
+    transform: translate(-10px) skewY(-30deg) scale(170%) ;
+}
