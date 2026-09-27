@@ -41,8 +41,8 @@ div {
 }
 
 #back {
-    top: 800px;
-    right:60px;
+    top: 810px;
+    right:45px;
 }
 
 a {
@@ -58,6 +58,7 @@ a {
     position: fixed;
     transform: skewY(-30deg);
     transition: transform 0.5s ease;
+    z-index: 100;
     
 }
 a:hover {

@@ -6,29 +6,63 @@
     <style>
         h1 {
             top:75px;
+           z-index: 5;
         }
         #img1 {
             position: fixed;
             align-content:center;
-            transform: scale(10%);
-            top: -3300px;
-            right: -2500px;
-            z-index: -5;
+            transform: scale(20%);
+            top: -3500px;
+            right: -2800px;
+            z-index: 1;
+            rotate: -10deg;
+        }
+
+        #img2 {
+            position: fixed;
+            align-content:center;
+            transform: scale(17%);
+            top: -2800px;
+            right: -3300px;
+            z-index: 2;
+            rotate: -5deg;
+        }
+
+        #img3 {
+            position: fixed;
+            align-content:center;
+            transform: scale(15%);
+            top: -2900px;
+            right: -2300px;
+            z-index: 32;
+            rotate: 180deg;
+        }
+        #img4 {
+            position: fixed;
+            align-content:center;
+            transform: scale(15%);
+            top: -3500px;
+            right: -3450px;
+            z-index: 4;
+            rotate: -30deg;
+        }
+     
         
-            
-        }
-        #img1:hover{
-          display: block;
-        }
     </style>
   </head>
   <body>
     
     <div id="capt1">caption 1</div>
+    <img id="img1" src="keys.png"> </img>
+    
+    <img id="img2" src="battery.png"> </img>
+    
+    <img id="img3" src="tools.png"> </img>
 
+    <img id="img4" src="wallet.png"> </img>
 
     <h1> utilities </h1>
-    <span id="img1"><img src="placeholder.png"></span>
+  
     <a id="back" href="index.html"  > back</a>
 
   </body>

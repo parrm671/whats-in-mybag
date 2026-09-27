@@ -6,29 +6,51 @@
     <style>
         h1 {
             top:75px;
+           z-index: 5;
         }
         #img1 {
             position: fixed;
             align-content:center;
-            transform: scale(10%);
+            transform: scale(15%);
+            top: -3000px;
+            right: -2300px;
+            z-index: 1;
+            rotate: -10deg;
+        }
+
+        #img2 {
+            position: fixed;
+            align-content:center;
+            transform: scale(13%);
             top: -3300px;
-            right: -2500px;
-            z-index: -5;
+            right: -3500px;
+            z-index: 2;
+            rotate: -3deg;
+        }
+
+        #img3 {
+            position: fixed;
+            align-content:center;
+            transform: scale(15%);
+            top: -2900px;
+            right: -2800px;
+            z-index: 32;
+            rotate: 30deg;
+        }
+
         
-            
-        }
-        #img1:hover{
-          display: block;
-        }
     </style>
   </head>
   <body>
     
     <div id="capt1">caption 1</div>
-
+    <img id="img1" src="journal.png"> </img>
+    
+    <img id="img2" src="pens.png"> </img>
+    
+    <img id="img3" src="sticky.png"> </img>
 
     <h1> information </h1>
-    <span id="img1"><img src="placeholder.png"></span>
     <a id="back" href="index.html"  > back</a>
 
   </body>

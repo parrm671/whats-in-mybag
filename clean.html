@@ -6,29 +6,46 @@
     <style>
         h1 {
             top:75px;
+            z-index: 5;
         }
         #img1 {
             position: fixed;
             align-content:center;
-            transform: scale(10%);
-            top: -3300px;
-            right: -2500px;
-            z-index: -5;
-        
+            transform: scale(25%);
+            top: -3000px;
+            right: -2600px;
+            z-index: 1;
+            rotate: 15deg;
             
         }
-        #img1:hover{
-          display: block;
+
+        #img2 {
+            position: fixed;
+            align-content:center;
+            transform: scale(15%);
+            top: -3400px;
+            right: -3500px;
+            z-index: 2;
+            rotate: -10deg;
         }
+     
+        
+
+                  
+
+        
+        
     </style>
   </head>
   <body>
+    <img id="img2" src="handsan.png"> </img>
     
-    <div id="capt1">caption 1</div>
+    <img id="img1" src="wipe.png"></img>
+    
 
 
     <h1> cleaning </h1>
-    <span id="img1"><img src="placeholder.png"></span>
+   
     <a id="back" href="index.html"  > back</a>
 
   </body>
